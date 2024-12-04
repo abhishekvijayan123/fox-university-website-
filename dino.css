@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  display: flex;
+  gap: 10px;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+  margin-inline: auto;
+}
+header {
+  text-align: center;
+  background-color: red;
+  padding-block: 20px;
+  color: white;
+}
+footer {
+  background-color: gray;
+  color: green;
+  text-align: center;
+  padding-block: 5px;
+}
+.box {
+  width: 200px;
+  background-color: gray;
+  padding: 5px;
+}
+.small-box {
+  height: 100px;
+  background-color: green;
+  margin-bottom: 10px;
+}
+section h3,
+p {
+  color: green;
+  margin-bottom: 10px;
+}
+button {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  width: 100%;
+}
+section {
+  padding-block: 10px;
+  width: 700px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-inline: auto;
+  flex-wrap: wrap;
+}
